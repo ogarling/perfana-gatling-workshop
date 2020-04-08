@@ -237,9 +237,9 @@ For now we will try setting the loglevel to DEBUG:
 
 ```  
 <!-- Uncomment for logging ALL HTTP request and responses -->
-	 	<!--<logger name="io.gatling.http" level="TRACE" />-->
-	<!-- Uncomment for logging ONLY FAILED HTTP request and responses -->
-	 	<logger name="io.gatling.http" level="DEBUG" /> 
+<!--<logger name="io.gatling.http.engine.response" level="TRACE" />-->
+<!-- Uncomment for logging ONLY FAILED HTTP request and responses -->
+<logger name="io.gatling.http.engine.response" level="DEBUG" /> 
 ```
 
 That should help you find the root cause of the script failing! We will fix the script in the next exercise.
